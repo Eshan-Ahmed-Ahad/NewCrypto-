@@ -1,0 +1,330 @@
+/*
+====================================
+large Screen - Others
+====================================
+*/
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+
+
+.rundown-item-inner3 {
+	padding-left: 0;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+
+.rundown-item-inner3 {
+	padding-left: 0;
+}
+
+.street-item2 ul li a {
+    font-size: 14px;
+    padding: 9px 14px;
+    margin: 0 4px 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+
+.rundown-item {
+    margin-left: -24px;
+}
+
+.rundown-item-inner {
+    padding-left: 24px;
+}
+
+/*=== street area start ===*/
+
+.street-item h2 {
+    font-size: 32px;
+}
+
+.street-item img:nth-of-type(2) {
+	max-width: 450px;
+}
+
+.street-item3-inner5 {
+    padding-right: 0px;
+}
+
+.street-item3-inner5 h2 {
+    font-size: 16px;
+    margin: 0 0 9px;
+}
+
+.street-item3-inner5 p {
+    font-size: 16px;
+    margin: 0 0 15px;
+}
+
+/*=== personolize page start ===*/
+
+.personolize-item-inner2 h2 {
+    font-size: 17px;
+}
+
+.personolize-item-inner8 ul li {
+    font-size: 15px;
+}
+
+.personolize-item-inner8 ul li small {
+    font-size: 15px;
+}
+
+.personolize-item-inner8 ul li strong {
+    font-size: 14px;
+    width: 22px;
+    height: 22px;
+    line-height: 26px;
+    margin-right: 10px;
+}
+
+.personolize-item-inner8 ul li span {
+    width: 22px;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (max-width: 767px) {	
+
+
+
+
+
+
+.header-item2-inner p {
+    display: none;
+}
+
+.header-item2-inner2 ul li a {
+    padding: 12px 20px;
+}
+
+.header-item2-inner2 ul li span {
+    display: none;
+}
+
+.rundown-item-inner2 {
+	padding-left: 0;
+}
+
+.rundown-item-inner2 ul li a {
+	margin-bottom: 5px;
+}
+
+/*=== street area start ===*/
+
+.street-item h2 {
+    font-size: 28px;
+    margin: 30px 0;
+}
+
+.street-item h2 br {
+	display: none;
+}
+
+.street-item img:nth-of-type(2) {
+	max-width: 270px;
+}
+
+.street-item form {
+    margin: 35px auto 40px;
+}
+
+.street-item form div i {
+    font-size: 18px;
+    left: 15px;
+}
+
+.street-item form input {
+    font-size: 19px;
+    padding: 15px 20px 15px 45px;
+}
+
+.street-item2 ul li a {
+    font-size: 13px;
+    padding: 8px 12px;
+    margin: 0 4px 11px;
+}
+
+.street-item2 ul li a img {
+    margin-right: 5px;
+}
+
+.street-item3-inner4 {
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.street-item3-inner5 {
+    flex: 0 0 100%;
+    width: 100%;
+    padding-top: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*=== personolize page start ===*/
+
+.personolize-area {
+    padding: 51px 0 60px;
+}
+
+.personolize-item-inner2 h2 {
+    font-size: 22px;
+}
+
+.personolize-item-inner3 {
+    padding: 30px 20px;
+}
+
+/*=== personolize step 01 page start ===*/
+
+.personolize-item-inner {
+    flex-wrap: wrap;
+}
+
+.personolize-item-inner8 {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.personolize-item-inner8 ul {
+    justify-content: center;
+}
+
+.personolize-item-inner8 ul li small {
+    display: none;
+}
+
+.personolize-item-inner8 ul li strong {
+    margin: 0;
+}
+
+.personolize-item-inner12 p {
+    display: block;
+}
+
+.personolize-item-inner4 h2 {
+    font-size: 20px;
+}
+
+/*=== personolize step 03 page start ===*/
+
+.personolize-item-inner16 {
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
