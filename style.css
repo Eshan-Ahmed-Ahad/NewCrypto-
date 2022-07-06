@@ -8,6 +8,7 @@ body {
     font-weight: 400;    
 	background: #fff;
 	color: #333333;	
+ 
 }
 
 a:hover {
@@ -743,6 +744,7 @@ button:focus {
 
 .trendingBox {
     width: 100%;
+    height: 100px !important;
     background-color: #1E222D;
     display: flex;
     overflow: visible;
@@ -750,11 +752,12 @@ button:focus {
 }
 
 .TBox {
-    width: 120px;
-    height: auto !important;
-    padding-left: 10px !important;
-    border-left:1px solid #434651 !important;
-    border-right:1px solid #434651 !important;
+    width: 180px;
+    height: 150px !important;
+    padding-left: 20px !important;
+    border-left: 1px solid #434651 !important;
+    border-right: 1px solid #434651 !important;
+    padding-right: 20px;
 }
 .Company {
     margin-bottom: 4px;
@@ -780,8 +783,7 @@ button:focus {
    font-size: 13px;
    font-weight: 400;
 }
-
-@-webkit-keyframes scroll {
+ @-webkit-keyframes scroll {
     0% {
       -webkit-transform: translateX(0);
               transform: translateX(0);
@@ -791,8 +793,8 @@ button:focus {
               transform: translateX(calc(-250px * 7));
     }
   }
-  
-  @keyframes scroll {
+   
+   @keyframes scroll {
     0% {
       -webkit-transform: translateX(0);
               transform: translateX(0);
@@ -802,15 +804,13 @@ button:focus {
               transform: translateX(calc(-250px * 7));
     }
   }
-  
-  .slider {
-  
-    height: 100px;
-    margin: auto;
+ 
+   .slider {
+    height: 100px ;
+    font-size: 13px;
     overflow: hidden;
     position: relative;
-  
-  }
+}
   
   .slider::before, .slider::after {
 
@@ -842,3 +842,345 @@ button:focus {
     width: calc(250px * 14);
   }
   
+
+
+  
+/*=== personolize page start ===*/
+
+.personolize-area {
+	padding: 51px 0 138px;
+	background: #f5f5f5;
+}
+
+.personolize-item-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 12px;
+	border-bottom: 3px solid #333333;
+}
+
+.personolize-item-inner2 h2 {
+	font-weight: 600;
+	font-size: 24px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #333333;
+	margin: 0;
+}
+
+.personolize-item-inner3 {
+	padding: 40px;
+	background: #ffffff;
+	border: 1px solid #dde2e5;
+	display: flex;
+	flex-direction: column;
+	max-width: 480px;
+	margin: 35px auto 0;
+	opacity: 0;
+	visibility: hidden;
+	display: none;
+}
+
+.personolize-item-inner3.active {
+	opacity: 1;
+	visibility: visible;
+	display: block;
+}
+
+.personolize-item-inner4 h2 {
+	font-weight: 600;
+	font-size: 24px;
+	letter-spacing: -0.006em;
+	color: #333333;
+	display: flex;
+	align-items: center;
+	margin: 0 0 30px;
+}
+
+.personolize-item-inner4 h2 span {
+	margin: 0 auto;
+}
+
+.personolize-item-inner4 h2 i {
+	font-size: 18px;
+}
+
+.personolize-item-inner6 input[type='radio'] {
+	display: none;
+}
+
+.personolize-item-inner6 label {
+	font-weight: 600;
+	font-size: 18px;
+	letter-spacing: -0.006em;
+	color: #333333;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid transparent;
+	background: #e6ebf3;
+	border-radius: 100px;
+	margin: 0 0 16px;
+	cursor: pointer;
+}
+
+.personolize-item-inner6 input[type='radio']:checked + label {
+	border-color: #5677ac;
+}
+
+.personolize-item-inner7 {
+	margin-top: auto;
+}
+
+.personolize-item-inner7 ul li a {
+	font-weight: 600;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: -0.006em;
+	color: #ffffff;
+	width: 100%;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	background: #5677ac;
+	border-radius: 5px;
+}
+
+.personolize-item-inner7 ul li a:hover {
+	opacity: 0.8;
+}
+
+/*=== personolize step 01 page start ===*/
+
+.personolize-item-inner8 ul {
+	display: flex;
+	align-items: center;
+	opacity: 0;
+	display: none;
+}
+.personolize-item-inner8.active ul {
+	opacity: 1;
+	display: flex;
+}
+
+.personolize-item-inner8 ul li {
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: -0.1px;
+	color: #bdbdbd;
+	display: flex;
+	align-items: center;
+}
+
+.personolize-item-inner8 ul li small {
+	font-size: 16px;
+}
+
+.personolize-item-inner8 ul li strong {
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: -0.1px;
+	color: #ffffff;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 28px;
+	margin-right: 12px;
+	background: #afbcd1;
+}
+
+.personolize-item-inner8 ul li span {
+	width: 30px;
+	height: 1px;
+	display: block;
+	margin: 0 15px;
+	background: rgba(86, 119, 172, 0.2);
+	transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.personolize-item-inner8 ul li.active {
+	color: #333333;
+}
+
+.personolize-item-inner8 ul li.active strong {
+	background: #5677ac;
+}
+
+.personolize-item-inner12 p {
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: -0.1px;
+	color: #333333;
+	text-align: center;
+	margin: 15px 0 0;
+	display: none;
+}
+
+.personolize-item-inner11 {
+	max-width: 580px;
+	min-height: 540px;
+}
+
+.personolize-item-inner12 {
+	padding-right: 34px;
+}
+
+.personolize-item-inner9 ul {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 30px;
+}
+
+.personolize-item-inner10 ul {
+	margin-right: -10px;
+}
+
+.personolize-item-inner9 ul li a {
+	font-weight: 400;
+	font-size: 16px;
+	display: block;
+	text-align: center;
+	letter-spacing: -0.006em;
+	text-transform: uppercase;
+	color: #000000;
+	padding: 8px 10px 4px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background: rgba(86, 119, 172, 0.15);
+	border-radius: 50px;
+}
+
+.personolize-item-inner9 ul li a:hover {
+	opacity: 0.8;
+}
+
+.personolize-item-inner10 ul li:nth-of-type(2) a {
+	color: #fff;
+	background: #f2994a;
+}
+
+.personolize-item-inner10 ul li:nth-of-type(9) a {
+	color: #fff;
+	background: #ef5da8;
+}
+
+.personolize-item-inner10 ul li:nth-of-type(11) a {
+	color: #fff;
+	background: #f2c94c;
+}
+
+.personolize-item-inner10 ul li:nth-of-type(12) a {
+	color: #fff;
+	background: #9b51e0;
+}
+
+.personolize-item-inner10 ul li:nth-of-type(16) a {
+	color: #fff;
+	background: #27ae60;
+}
+
+.personolize-item-inner10 ul li:nth-of-type(19) a {
+	color: #fff;
+	background: #56ccf2;
+}
+
+.personolize-item-inner10 ul li:nth-of-type(27) a {
+	color: #fff;
+	background: #eb5757;
+}
+
+.personolize-item-inner10 ul li:nth-of-type(28) a {
+	color: #fff;
+	background: #f2c94c;
+}
+
+.personolize-item-inner10 ul li:nth-of-type(29) a {
+	color: #fff;
+	background: #9b51e0;
+}
+
+.personolize-item-inner9 ul li:last-of-type a {
+	color: #fff;
+	background: #333333;
+}
+
+/*=== personolize step 02 page start ===*/
+
+.personolize-item-inner8 ul li .strong1 {
+	display: none;
+}
+.personolize-item-inner8 ul li.active2 .strong1 {
+	background: #0ad1a2;
+	display: block;
+}
+.personolize-item-inner8 ul li .strong2 {
+	display: block;
+}
+.personolize-item-inner8 ul li.active2 .strong2 {
+	display: none;
+}
+
+.personolize-item-inner8 ul li.active2 span {
+	background: #5677ac;
+}
+
+.personolize-item-inner7 ul li:nth-of-type(2) a {
+	background: transparent;
+	color: #5677ac;
+	margin-top: 10px;
+	margin-bottom: -20px;
+}
+
+.personolize-item-inner7 ul li:nth-of-type(2) a:hover {
+	background: #5677ac;
+	color: #fff;
+}
+
+/*=== personolize step 03 page start ===*/
+
+.personolize-item-inner16 {
+	margin-bottom: 35px;
+}
+
+.personolize-item-inner15 {
+	padding-bottom: 10px;
+	margin-bottom: 16px;
+	border-bottom: 1px solid #dde2e5;
+}
+
+.personolize-item-inner15 h4 {
+	font-weight: 600;
+	font-size: 16px;
+	letter-spacing: -0.006em;
+	color: #333333;
+	margin: 0;
+}
+
+.personolize-item-inner16 .personolize-item-inner9 ul {
+	padding-bottom: 0;
+}
+
+.personolize-item-inner9 ul li a img {
+	max-width: 100%;
+	margin-right: 10px;
+}
+
+.personolize-item-inner9 ul li a.active {
+	background-color: #333333;
+	color: #fff;
+}
+
+
+/* trendingView ARea design  */
+
+
+.DEcreaseColor {
+    color: rgb(166, 23, 23);
+    margin-top: -16px;
+}
